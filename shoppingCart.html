@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneaker Heads</title>
+
+    <!-- external files -->
+    <link href="shoppingCart.css" rel="stylesheet" type="text/css" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <link href="./about.html" rel="stylesheet" type="text/css" />
+    <link href="./ourteam.html" rel="stylesheet" type="text/css" />
+    <link href="cartItems.html" rel="stylesheet" type="text/css" />
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="shadow navbar navbar-light bg-light p-3">
+      <a href="#" class="navbar-brand">Home</a>
+      <a href="./about.html" class="navbar-brand">About Us</a>
+      <a href="cartItems.html" class="navbar-brand">InCart</a>
+      <a href="./ourteam.html" class="navbar-brand">Our Team</a>
+      
+      <!-- search form -->
+      <form class="form-inline">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search for your sneaker..."
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+
+      <!-- login button -->
+      <button type="button" class="btn btn-primary mr-4">Login</button>
+    </nav>
+
+    <!-- Heading and brand image -->
+    <div class="brand-image-display">
+      <h1 class="store-heading">Welcome to Sneaker Heads</h1>
+      <br />
+
+      <!-- heading underline -->
+      <div class="heading-underline"></div>
+      <br />
+      <br />
+
+      <img
+        class="display-image"
+        src="./images/img1-jordan1.jpg"
+        width="500px"
+        alt="jordan-1"
+      />
+      <div>
+        <button class="display-btn">SlideUp/Down</button>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <!-- available in store text -->
+    <div class="available-text">
+      <h2>Available in Store</h2>
+      <br />
+      <div class="available-underline"></div>
+    </div>
+
+    <!-- display images grid -->
+    <div class="sneaker-images">
+    </div>
+
+    <!-- Exclusive coming next month -->
+    <div class="exclusives-text">
+      <h2>Coming This Summer!</h2>
+      <br />
+      <div class="exclusives-underline"></div>
+    </div>
+    <br />
+    
+      <!-- sneaker image container -->
+      <div style="margin: auto; display: block;" class="image-container">
+        <img
+        class="sneaker-img"
+        id="yeezy-boost-img"
+          src="https://images.unsplash.com/photo-1505248254168-1de4e1abfa78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8eWVlenklMjBhZGlkYXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+          alt="yeezy"
+        />
+          <div class="image-title">Yeezy</div>
+          <p class="description">
+            <b>Yeezy Adidas boost 350</b>
+          </p>
+         
+          <button class="view-animation">View</button>
+      </div>
+      <br>
+
+      <!-- second image -->
+      <div style="margin: auto; display: block;" class="image-container">
+        <img
+          class="sneaker-img"
+          id="ultra-boost-img"
+          src="https://images.unsplash.com/photo-1519861297062-a1eec154f81a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dWx0cmElMjBib29zdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt="ultra-boost"
+        />
+          <div class="image-title">Ultra boost</div>
+          <p class="description">
+            <b>Adidas Ultra boost</b> 
+          </p>
+          
+          <button class="view-animation-btn">View</button>
+      </div>
+      <br>
+  
+
+    <!-- Delivery Section -->
+    <div class="faq-text">
+      <h2>Collection and Delivery Information</h2>
+      <br />
+      <div class="faq-underline"></div>
+    </div>
+    <br />
+      <div class="container">
+        <div class="drop-down-menu">
+          <ul>
+            <li>
+              <h4>Places we deliver to!</h4>
+              <div class="accord-content">
+                <ul>
+                  <li>Cape Town</li>
+                  <li>Gauteng</li>
+                  <li>Durban</li>
+                  <li>Port Elizabeth</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <h4>Collection Times!</h4>
+              <div class="accord-content">
+                <ul>
+                  <li>Moday: 08:00 AM - 16: 00 PM</li>
+                  <li>Tuesday: 08:00 AM - 16: 00 PM</li>
+                  <li>Wednesday: 08:00 AM - 16: 00 PM</li>
+                  <li>Thursday: 10:00 AM - 16: 00 PM</li>
+                  <li>Friday: 12:00 AM - 16: 00 PM</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- FAQ Question -->
+      <div class="faq-text">
+        <h2>FAQs</h2>
+        <br />
+        <div class="faq-underline"></div>
+      </div>
+      <br>
+      <br>
+
+      
+      <div class="faqs-container">
+        <p><b>How long does it normally take for me to get my delivery?</b></p>
+        <div class="faqs">
+          <p id="faq-paragraph">3 Day maxium depending where you are located, it can be one or two days.</p>
+          <button class="faq-btn" id="hide">-</button>
+          <button class="faq-btn2" id="show">+</button>
+        </div>
+        <br>
+
+        <p><b>Can I cancel my order?</b></p>
+        <div class="faqs">
+          <p id="faq-paragraph2">Yes you are allowed before delivery, make sure you keep your reference number.</p>
+          <button class="faq-btn" id="hide1">-</button>
+          <button class="faq-btn2" id="show1">+</button>
+        </div>
+        <br>
+
+        <p><b>Do we have physical stores?</b></p>
+        <div class="faqs">
+          <p id="faq-paragraph3">We do have one, it is located in Durban</p>
+          <button class="faq-btn" id="hide2">-</button>
+          <button class="faq-btn2" id="show2">+</button>
+        </div>
+        <br>
+
+      </div>
+     <br>
+
+  <!-- Reviews -->
+  <div class="reviews-text">
+    <h2>Reviews</h2>
+    <br />
+    <div class="reviews-underline"></div>
+  </div>
+  
+  <main class="reviews-container">
+    <div class="reviews">
+      <div class="review">
+        <p><i>"Sneaker Heads are the best! I am from Durban, I order a sneaker for my daughter and three days after I have placed my order with them they delivered on time, no hassle. Thank you guys! #veryProfessional."</i>
+        <p><i>-Winnie Khaya</i></p></p>
+      </div>
+      <div class="review">
+        <p><i>"I have been buying from Sneaker Heads for years now, and I've never complained about their services, keep up the good quality work guys!"</i>
+        <p><i>-Steven James</i></p></p>
+      </div>
+      <div class="review">
+        <p><i>"I do not usually buy things online because I'm scared of disappoint maybe they won't deliver on time, might get a wrong size etc but you guys made me think positive about online Shopping!"</i>
+        <p><i>-Linda Naicker</i></p></p>
+      </div>
+      <div class="review">
+        <p><i>"I have been a sneaker head myself for years and when I want to buy a new sneaker I know I can get it from you guys, the right size and colours, you guy always got the exclusives in the game!"</i>
+        <p><i>-Litha Xaba</i></p></p>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="./shoppingCart.js"></script>
+  
+  </body>
+</html>

@@ -1,0 +1,263 @@
+/* font family */
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* store-heading */
+.store-heading {
+  text-align: center;
+}
+
+/* heading underline */
+.heading-underline {
+  width: 100px;
+  border-bottom: 4px solid rgb(31, 31, 31);
+  text-align: center;
+  position: relative;
+  left: 630px;
+}
+
+/* brand-image-display */
+.brand-image-display {
+  margin-top: 2rem;
+}
+
+/* brand image in the center */
+.display-image {
+  margin: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px 16px lightgray;
+  cursor: pointer;
+}
+
+.display-btn{
+  position: relative;
+  margin-top: 3rem;
+  left: 45%;
+  border-radius: 4px;
+}
+
+.display-image:hover {
+  box-shadow: 0px 8px 12px 25px lightgray;
+}
+
+/* available text */
+.available-text {
+  margin-top: 2rem;
+  padding: 20px;
+}
+
+.available-underline {
+  width: 100px;
+  border-bottom: 4px solid rgb(31, 31, 31);
+  text-align: center;
+  position: relative;
+}
+
+/* images horizontal */
+.sneaker-images {
+  display: grid;
+  grid-template-areas: "image image";
+  grid-area: image;
+  margin-top: 4rem;
+  margin: 4rem;
+  grid-gap: 60px;
+}
+
+/* sneaker images overlay */
+.image-container {
+  position: relative;
+  width: 500px;
+}
+
+.sneaker-image {
+  display: block;
+  object-fit: cover;
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* overlay text content in the center of the image */
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* overlay hidden */
+  opacity: 0;
+
+  /* transition effect*/
+  transition: opacity 0.2s;
+}
+
+/* display overlay when hovering */
+.image-overlay:hover {
+  opacity: 1;
+  border-radius: 6px;
+}
+
+/* image title */
+.image-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* image overlay text */
+.image-overlay > p {
+  font-size: 1.1rem;
+}
+
+/* add to cart button */
+.add-to-cart {
+  border: 1px solid white;
+  padding: 8px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: white;
+  color: rgb(34, 34, 34);
+  transition: 0.5s ease-in-out;
+  border-radius: 4px;
+}
+
+/* Exlusive coming */
+.exclusives-text {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.exclusives-underline {
+  width: 70px;
+  border-bottom: 4px solid rgb(31, 31, 31);
+  text-align: center;
+  position: relative;
+  left: 640px;
+}
+.sneaker-img{
+  display: block;
+  object-fit: cover;
+  width: 350px;
+  height: 250px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.view-animation{
+  width: 100px;
+}
+.view-animation-btn{
+  width: 100px;
+}
+
+/* Delivery and collection info */
+.faq-text {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.faq-underline {
+  width: 60px;
+  border-bottom: 4px solid rgb(31, 31, 31);
+  text-align: center;
+  position: relative;
+  left: 640px;
+}
+
+.container {
+  width: 400px;
+}
+
+.drop-down-menu li {
+  list-style: none;
+}
+
+.drop-down-menu li h4 {
+  background-color: rgb(29, 12, 12);
+  padding: 25px 0;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+.accord-content {
+  background-color: rgb(201, 194, 194);
+  color: rgb(17, 17, 17);
+  font-size: 1rem;
+  display: none;
+  padding: 10px;
+}
+
+/* FAQ */
+.faqs{
+  display: flex;
+}
+.faq-btn{
+  border-radius: 50%;
+ cursor: pointer;
+ width: 40px;
+ font-size: 22px;
+ position: relative;
+ left: 10px;
+}
+
+
+.faq-btn2{
+ border-radius: 50%;
+ cursor: pointer;
+ width: 40px;
+ font-size: 22px;
+ position: relative;
+ left: 20px;
+}
+
+/* Reviews */
+.reviews-text {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* heading underline */
+.reviews-underline {
+  width: 70px;
+  border-bottom: 4px solid rgb(31, 31, 31);
+  text-align: center;
+  position: relative;
+  left: 630px;
+}
+
+/* reviews grid cards */
+.reviews-container {
+  margin-top: 3rem;
+}
+
+.reviews-container > .reviews {
+  display: grid;
+  grid-template-areas: "review review review review";
+}
+
+.review {
+  margin: 1rem;
+  border: 1px solid lightblue;
+  background-color: rgb(30, 102, 30);
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+}
+
+.review:hover {
+  box-shadow: 0px 4px 10px 15px lightblue;
+  cursor: pointer;
+}
