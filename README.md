@@ -6,16 +6,16 @@ Is it an online store made easy for users to buy products at their own time and 
 ## Table of contents
 * [Installation](#Installation)
 * [Functionalities](#Functionalities)
-* [How to use the project](#How to use the projects)
+* [Instructions](#Instructions)
 
 # Installation
 Navigate to your terminal (Ctrl+`) and then enter git clone [repository_url] on the terminal
 
 # Functionalities 
-User can add items to cart very easy 
-Each item added to cart is stored in localStorage
-User is notified when an item is added to cart 
-User can see the total of items added to cart
+* User can add items to cart very easy 
+* Each item added to cart is stored in localStorage
+* User is notified when an item is added to cart 
+* User can see the total of items added to cart
 
 
 # How to use the project
