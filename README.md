@@ -1,7 +1,7 @@
 # Shopping Cart
 
 ## What is it?
-Is it an online store made easy for users to buy products at their own time and comfort.
+Is it an online store made easy for users to buy products at their own time and comfort, also users have an option to get their product delivered in their cities.
 
 ## Table of contents
 * [Installation](#Installation)
@@ -9,7 +9,7 @@ Is it an online store made easy for users to buy products at their own time and 
 * [Instructions](#Instructions)
 
 # Installation
-Navigate to your terminal (Ctrl+`) and then enter git clone [repository_url] on the terminal
+Navigate to your terminal (Ctrl+`) and then type/enter git clone [repository_url] on the terminal
 
 # Functionalities 
 * User can add items to cart very easy 
@@ -17,8 +17,8 @@ Navigate to your terminal (Ctrl+`) and then enter git clone [repository_url] on 
 * User is notified when an item is added to cart 
 * User can see the total of items added to cart
 
-
-# How to use the project
+# Instructions
+## How to use the project
 
 **User can start buying by hovering over any item on the menu and clicking the add-to-cart button on the item you want to buy and an alert will pop up to let the user know an item is added to cart.**
 
